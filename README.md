@@ -37,6 +37,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Add your name here](https://aleksandraryan.com)
+- Website - [Aleksandra Ryan](https://aleksandraryan.com)
 - Frontend Mentor - [@AleksandraRyan](https://www.frontendmentor.io/profile/AleksandraRyan)
 - Twitter - [@Aleksan20374732](https://twitter.com/Aleksan20374732)
