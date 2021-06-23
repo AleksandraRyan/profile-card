@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background: url('../images/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg'), #19a2ae;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: -70% 50%, 160% -30%;
+  max-height: 100vh;
+}
+
+.container {
+  max-width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.bg-top img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bg-person img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -15%;
+}
+
+.person-name {
+  margin: 20px;
+}
+
+.person-name h4 {
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+.person-name p {
+  font-family: var(--font-family);
+  font-size: 13px;
+  margin-top: 8px;
+  color: #c9bfbf;
+}
+
+.person-name h4 span {
+  margin-left: 6px;
+  color: #c9bfbf;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 0.7em;
+  color: hsl(227, 10%, 46%);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #eeeeee;
+  padding: 20px;
+}
+
+.social h4 {
+  font-family: var(--font-family);
+  margin-bottom: 6px;
+}
+.social p {
+  font-family: var(--font-family);
+  margin-bottom: 6px;
+  color: #c9bfbf;
+}
+
+.attribution {
+  font-size: 15px;
+  margin: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-family: var(--secondary-font);
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.attribution a:hover {
+  color: #fff;
+}
